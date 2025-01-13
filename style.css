@@ -1,0 +1,72 @@
+html {
+    height: max-content;
+    background-image: url("assets/bglight.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    border: none;
+    padding: 6px;
+}
+
+.maindiv {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+}
+
+.subdiv {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    height: auto;
+    overflow: auto;
+}
+
+.tilesl {
+    float: left;
+    width: 49.5%;
+    height: auto;
+}
+
+.tilesr {
+    float: right;
+    width: 49.5%;
+    height: auto;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.darkmodediv {
+    background-color: rgba(39, 39, 39, 0.6);
+    color: white;
+}
+
+.darkmodehtml {
+    background-image: url("assets/bgdark.jpg");
+}
+
+.darkmodelink {
+    color: aqua;
+}
