@@ -70,3 +70,9 @@ input {
 .darkmodelink {
     color: aqua;
 }
+
+@media (max-width: 600px) {
+    .maindiv {
+        width: 95%;
+    }
+}
