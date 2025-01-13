@@ -13,7 +13,7 @@ function toggleallelements(divs, toggle) {
 }
 
 // get live updating village stats
-fetch("http://api.retromc.org/api/v1/village/getVillage?uuid=981b218f-706f-48c0-9ce0-bd877e63bbcb")
+fetch("https://api.retromc.org/api/v1/village/getVillage?uuid=981b218f-706f-48c0-9ce0-bd877e63bbcb")
  .then(response => {return response.json()})
  .then(data => {
     const markup = `
